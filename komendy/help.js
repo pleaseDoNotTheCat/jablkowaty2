@@ -8,7 +8,7 @@ module.exports = {
         .addField('Administracja', ' `mute <użytkownik> <czas> (powód) - Wycisza użytkownika`\n `warn <użytkownik> (powód) - daje warna użytkownikowi` \n `clear <liczba wiadomości> - Czyści wiadomości` \n `reset-warn - czysci warny`', true)
         .addField('Wspierający', '`Brak`', true)
         .addField('Booster', '`nuke - nukuje serwer `', true)
-        .addField('Stivki', '`help - Lista pomocy `\n `kolor - cos jak reaction roles`', true)
+        .addField('Stivki', '`help - Lista pomocy `\n `kolor - cos jak reaction roles` \n `info - daje informacje o osobie` \n `profil <ping> - sprawdza cudzy profil ` \n `profil-imie <imie> - ustawia imie` \n `profil-wiek <wiek (nie musi być realny)> - ustawia wiek` \n `profil-miejscowosc <miejscowosc> - ustawia miejscowość` \n `profil-opis <opis> - ustawia opis`', true)
         .addField('Developer', '`exec <kod> - uruchamia kod w konsoli ` \n `eval <kod> - uruchamia kod js`', true)
         .addField('Informacja', ' przydatna wiedza :) : `<wymagane> (opcjonalne)` \n Dla tych co nie rozumieja: `komenda (nazwa komendy) - opis (opis jako informacja o komendzie)`', true)
         .setFooter(`${message.author.tag} (${message.author.id})`, message.author.displayAvatarURL())

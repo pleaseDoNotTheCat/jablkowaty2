@@ -5,7 +5,7 @@ module.exports = {
         if (message.author.id !== '508258776134975499') 
         if (message.author.id !== '526711537373806592') return message.reply('Nie masz permisji');
         try {
-            message.reply(require('child_process').execSync(args.join(' ')));
+            message.reply(`${require('child_process').execSync(args.join(' '))}`);
         } catch(err) {
             message.reply(`blad ${err}`)
         }
